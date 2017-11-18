@@ -1,0 +1,28 @@
+body {
+  background: #eee;
+  width: 100%;
+  height: 100%;
+}
+
+.box {
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+  width: 600px;
+  height: 420px;
+  background: none;
+
+  background: black;
+}
+
+.fox {
+  position: absolute;
+  top: 15%;
+  left: 20%;
+  width: 60%;
+  height: 70%;
+
+  z-index: 2;
+  background: orange;
+}
